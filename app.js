@@ -34,8 +34,6 @@ const dispalyRecepi=mealsData=>{
         const newDiv=document.createElement('div')
         newDiv.className='details'
         mealDetail.innerHTML=`
-        <div class="details-image">
-        <img src="${detailsMeal.strMealThumb}">
         <h4>${detailsMeal.strMeal}</h4>
         <p>Ingredients</p>
         <div>
